@@ -13,6 +13,8 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private long id2;
+    private long id3;
+
     private String name;
     private String email;
     private String phone;
